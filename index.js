@@ -12,7 +12,7 @@ const mysql = require('mysql'),
 //creamos la conexion a nuestra base de datos con los datos de acceso de cada uno
 connection = mysql.createConnection(
     {
-		 host: 'http://us-cdbr-sl-dfw-01.cleardb.net',
+		 host: 'us-cdbr-sl-dfw-01.cleardb.net',
 		  user: 'bd84f383c0825e',
 		  password: '1c361825',
 		  database: 'ibmsl_87bbd800f198a455470d'
