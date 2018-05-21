@@ -8,7 +8,7 @@ TABLA DATOS
 
 get('/api/dato'
 get ('/api/dato/:datoId'
-post ('/api/dato'
+post ('/api/dato'>>>>>>>>>>>>>>>no  funcion
 put ('/api/dato/:id_datos'
 delete ('/api/dato/:datoId'
 
