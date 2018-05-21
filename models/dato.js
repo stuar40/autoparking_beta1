@@ -4,7 +4,7 @@
 const db = require('../config') //reference of dbconnection.js
 const dato = {
     getAllDatos: function(callback) {
-        return db.query("SELECT * FROM autoparking.datos", callback)
+        return db.query("SELECT * FROM datos", callback)
     },
     getDatoById: function(datoId, callback) {
         return db.query("SELECT * FROM datos WHERE id_datos = ?", [datoId], callback)

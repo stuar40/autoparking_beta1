@@ -4,7 +4,7 @@
 const db = require('../config') //reference of dbconnection.js
 const ciudad = {
     getAllCiudad: function(callback) {
-        return db.query("SELECT * FROM autoparking.ciudad", callback)
+        return db.query("SELECT * FROM ciudad", callback)
     },
     getCiudadById: function(ciudadId, callback) {
         return db.query("SELECT * FROM ciudad WHERE id_ciudad = ?", [ciudadId], callback)
